@@ -18,3 +18,9 @@ The main.tf file contains code to build the following in an AWS infrastructure.
 - CloudWatch
 
 variable.tf contains all the necessary variables such as AWS Regions, CIDR blocks, etc. that supports main.tf to execute properly. This gives a free-hand to user have their own attributes in place.
+
+After cloning the repository follow these steps to get it runnung.
+- "terraform init" from the folder will install all the necessary plugins for Terraform.
+- "terraform plan" is used to create a execution plan.
+- "terraform apply" will create the necessary infrastructure on the Cloud.
+- "terraform destroy" will destroy all the resources created by terraform files in that directory.
